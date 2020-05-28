@@ -3,7 +3,7 @@
     margin:0;
 }
 .container{
-    background-image: url("/images/bck.jpg");
+    background-image: url("/images/black-burn-burning-burnt-426444.jpg");
     width:100%;
     height:100vh;
     background-repeat: no-repeat;
@@ -18,5 +18,60 @@
     height:100vh;
     background-repeat: no-repeat;
     background-size: cover;
-   margin-left: -15%;
+   margin-left: -24%;
+}
+section{
+    width:100%;
+    height:100vh;
+    
+}
+.second_section{
+    background-image: url("/images/test.jpg");
+    width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;   
+}
+
+.describe{
+  color: aliceblue;
+  text-align: center;
+  display: inline-block;
+  font-size: 80px;
+  padding-top: 25%;
+  padding-left: 30%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.second_section h4
+{
+    padding-top: 3%;
+    color: aqua;
+    font-size: 23px;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(150, 192, 248), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+        transition: opacity 1000ms;
+       
+}
+.second_section h5
+{
+    padding-top: 3%;
+    color: aqua;
+    text-align: center;
+    font-size: 20px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+    transition: opacity 1500ms;
+}
+.editor{
+    
+    text-align: center;
+    background: -webkit-linear-gradient(rgba(145, 75, 224, 0.452), rgb(139, 113, 235));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
