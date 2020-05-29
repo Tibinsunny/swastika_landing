@@ -7,11 +7,13 @@
       {
         test[0].target.style.opacity ="1";
         document.querySelector("h5").style.opacity="1"
+        document.querySelector(".editor").style.opacity="1"
       
       }
       else
       {test[0].target.style.opacity ="0";
       document.querySelector("h5").style.opacity="0"
+      document.querySelector(".editor").style.opacity="0"
 
       }
   })
